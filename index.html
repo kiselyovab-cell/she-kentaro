@@ -3,95 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | She Kentaro</title>
+    <title>She Kentaro | MiniMax H3 Research Hub</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #f8f9fa; color: #333; line-height: 1.6; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #0b0f19; color: #e2e8f0; line-height: 1.6; }
         
-        /* Шапка сайта */
-        header { background: #1a1c1e; color: white; padding: 50px 20px; text-align: center; }
-        header h1 { font-size: 2.8rem; margin-bottom: 10px; letter-spacing: 1px; }
-        header p { font-size: 1.2rem; color: #9ea4b0; max-width: 600px; margin: 0 auto; }
+        /* Шапка сайта в стиле Cyberpunk Lab */
+        header { background: linear-gradient(135deg, #111827 0%, #1f2937 100%); border-bottom: 2px solid #3b82f6; padding: 60px 20px; text-align: center; }
+        header h1 { font-size: 3rem; margin-bottom: 10px; color: #f3f4f6; letter-spacing: 2px; text-transform: uppercase; text-shadow: 0 0 10px rgba(59, 130, 246, 0.5); }
+        header p { font-size: 1.2rem; color: #9ca3af; max-width: 700px; margin: 0 auto; font-style: italic; }
 
         /* Контейнер для контента */
-        .container { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+        .container { max-width: 850px; margin: 40px auto; padding: 0 20px; }
 
-        /* Секции */
-        section { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 25px; }
-        h2 { color: #1a1c1e; margin-bottom: 15px; border-bottom: 2px solid #f0f1f2; padding-bottom: 5px; }
+        /* Исследовательские секции */
+        section { background: #111827; padding: 35px; border-radius: 12px; border: 1px solid #1f2937; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5); }
+        h2 { color: #3b82f6; margin-bottom: 20px; border-bottom: 1px solid #1f2937; padding-bottom: 8px; text-transform: uppercase; font-size: 1.4rem; letter-spacing: 1px; }
 
-        /* Списки навыков */
-        .skills-list { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; margin-top: 10px; }
-        .skills-list li { background: #f0f4f8; color: #2b6cb0; padding: 6px 12px; border-radius: 4px; font-size: 0.9rem; font-weight: bold; }
+        /* Теги технологий и моделей */
+        .tech-tags { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; margin-top: 15px; }
+        .tech-tags li { background: rgba(59, 130, 246, 0.1); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; }
 
-        /* Карточки проектов */
-        .project-card { border-left: 4px solid #3182ce; background: #fafbfc; padding: 15px; margin-top: 15px; border-radius: 0 4px 4px 0; }
-        .project-card h3 { margin-bottom: 5px; color: #3182ce; }
-        .project-card a { color: #3182ce; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 8px; }
-        .project-card a:hover { text-decoration: underline; }
-
-        /* Контакты (Ссылки) */
-        .contacts a { display: inline-block; background: #1a1c1e; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px; margin-top: 10px; transition: background 0.2s; }
-        .contacts a:hover { background: #3182ce; }
+        /* Карточки экспериментов */
+        .experiment-card { border-left: 4px solid #ef4444; background: #1f2937; padding: 20px; margin-top: 20px; border-radius: 0 8px 8px 0; }
+        .experiment-card h3 { margin-bottom: 8px; color: #f3f4f6; font-size: 1.2rem; }
+        .experiment-card p { color: #9ca3af; margin-bottom: 15px; }
+        
+        /* Кнопки коммуникации */
+        .connect-buttons a { display: inline-block; background: #3b82f6; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; margin-right: 12px; margin-top: 12px; font-weight: bold; transition: all 0.3s ease; border: 1px solid transparent; }
+        .connect-buttons a:hover { background: transparent; border-color: #3b82f6; color: #3b82f6; box-shadow: 0 0 15px rgba(59, 130, 246, 0.4); }
+        .connect-buttons a.secondary { background: #1f2937; border: 1px solid #374151; color: #9ca3af; }
+        .connect-buttons a.secondary:hover { border-color: #6b7280; color: #f3f4f6; }
     </style>
 </head>
 <body>
 
     <header>
         <h1>She Kentaro</h1>
-        <p>Vertical-format cyberpunk anime. 2D vector pop art inspired by the artist Chapi.</p>
+        <p>AI Video Creator & Researcher focusing on MiniMax H3 generative architecture.</p>
     </header>
 
     <div class="container">
         
-        <!-- О себе -->
+        <!-- О моем исследовании -->
         <section>
-            <h2>About Me</h2>
-            <p>Hi! I am a video production specialist focusing on videography, video editing, and visual effects (VFX). I combine classic post-production techniques with cutting-edge technologies, including AI-driven animation, to create immersive and striking visual content. Open to creative collaborations and freelance projects worldwide.</p>
+            <h2>Research Focus</h2>
+            <p>Welcome to my AI video generation sandbox. I am a video production and VFX specialist deeply exploring the boundaries of generative models. Currently, my primary focus is benchmarking and pushing the limits of the <strong>MiniMax H3 model</strong> (Hailuo AI)—specifically testing its multimodal prompt coherence, temporal consistency in 9:16 vertical formats, and character persistence inside complex cyberpunk-anime styling pipelines inspired by the artist Chapi.</p>
         </section>
 
-        <!-- Навыки -->
+        <!-- Стек технологий и моделей -->
         <section>
-            <h2>My Skills</h2>
-            <ul class="skills-list">
-                <li>Videography & Shooting</li>
-                <li>Video Editing (Post-Production)</li>
-                <li>Visual Effects (VFX)</li>
-                <li>AI-Powered Animation</li>
-                <li>Color Grading</li>
-                <li>Motion Graphics</li>
+            <h2>Model & Toolkit Sandbox</h2>
+            <p>Models, pipelines, and frameworks I am actively building workflows around:</p>
+            <ul class="tech-tags">
+                <li>MiniMax H3 (Hailuo AI)</li>
+                <li>ComfyUI / Stable Diffusion</li>
+                <li>Omni Reference Workflows</li>
+                <li>AI-Driven Audio-to-Video Pipelines</li>
+                <li>2D Vector Pop-Art Styling</li>
+                <li>Advanced Post-VFX (Adobe Ecosystem)</li>
             </ul>
         </section>
 
-        <!-- Проекты -->
+        <!-- Активные эксперименты -->
         <section>
-            <h2>Featured Projects</h2>
+            <h2>Active Experiments</h2>
             
-            <div class="project-card">
-                <h3>Cyberpunk Anime Promo</h3>
-                <p>A vertical-format experimental video project. Developed using vector assets and advanced AI animation pipelines to capture the retro-futuristic aesthetic of pop art and cyberpunk.</p>
-                <a href="#" target="_blank">Watch Video →</a>
+            <div class="experiment-card">
+                <h3>Exp #01: Cyberpunk Anime Vertical-Format Promo</h3>
+                <p>An in-depth exploration of structural coherence inside the MiniMax H3 engine. This project tests camera movement stability in 9:16 aspect ratios while retaining vector-style line art aesthetics across generation passes.</p>
+                
+                <!-- Контейнер для красивого вертикального плеера Kinescope -->
+                <div style="position: relative; padding-bottom: 177.77%; height: 0; overflow: hidden; max-width: 350px; margin-top: 15px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+                    <!-- Замените "ваш_ID_видео" на реальный ID после загрузки видео на kinescope.io -->
+                    <iframe 
+                        src="https://kinescope.io" 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+                        allow="autoplay; fullscreen; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
             </div>
 
-            <div class="project-card">
-                <h3>VFX & Commercial Showreel</h3>
-                <p>A compilation of my best work in video editing, color correction, and special effects. Demonstrates smooth transitions, compositing, and creative pacing.</p>
-                <a href="#" target="_blank">View Showreel →</a>
+            <div class="experiment-card" style="border-left-color: #3b82f6;">
+                <h3>Exp #02: Character Consistency & Prompt Matrix</h3>
+                <p>Testing Omni Reference multi-image seeds to prevent character distortion during heavy camera pan actions. Workflows and node setups are under active evaluation.</p>
             </div>
         </section>
 
-        <!-- Контакты -->
-        <section class="contacts">
-            <h2>Contact Me</h2>
-            <p>If you are interested in working together, feel free to reach out through any of the platforms below:</p>
-            <a href="https://t.me" target="_blank">Telegram</a>
-            <a href="mailto:your-email@example.com">Email</a>
-            <a href="https://github.com" target="_blank">GitHub</a>
+        <!-- Поиск единомышленников -->
+        <section class="connect-buttons">
+            <h2>Let's Collaborate & Share Prompts</h2>
+            <p>I am looking for fellow AI creators, ComfyUI node developers, and prompt engineers who model with MiniMax H3. If you want to exchange node setups, workflows, or collaborate on open-source experimental projects, let's connect:</p>
+            <a href="https://t.me" target="_blank">Connect via Telegram</a>
+            <a href="https://github.com" target="_blank" class="secondary">GitHub Profile</a>
         </section>
 
     </div>
 
 </body>
 </html>
-
 
