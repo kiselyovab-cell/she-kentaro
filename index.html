@@ -8,10 +8,17 @@
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #0b0f19; color: #e2e8f0; line-height: 1.6; }
         
-        /* Шапка сайта в стиле Cyberpunk Lab */
-        header { background: linear-gradient(135deg, #111827 0%, #1f2937 100%); border-bottom: 2px solid #3b82f6; padding: 60px 20px; text-align: center; }
-        header h1 { font-size: 3rem; margin-bottom: 10px; color: #f3f4f6; letter-spacing: 2px; text-transform: uppercase; text-shadow: 0 0 10px rgba(59, 130, 246, 0.5); }
-        header p { font-size: 1.2rem; color: #9ca3af; max-width: 700px; margin: 0 auto; font-style: italic; }
+        /* Шапка сайта в стиле Cyberpunk Lab с фоновым изображением */
+        header { 
+            /* Накладываем темный фильтр поверх картинки bg.jpg для читаемости текста */
+            background: linear-gradient(rgba(11, 15, 25, 0.8), rgba(11, 15, 25, 0.85)), url('bg2.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-bottom: 2px solid #3b82f6; 
+            padding: 80px 20px; /* Немного увеличили отступы, чтобы открыть больше картинки */
+            text-align: center; 
+        }
 
         /* Контейнер для контента */
         .container { max-width: 850px; margin: 40px auto; padding: 0 20px; }
